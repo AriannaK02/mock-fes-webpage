@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2ead8">
+  <title>Front End Simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Frontend Simple home">
+      <span class="brand-mark" aria-hidden="true">FES</span>
+      <span class="brand-name">
+        <strong>Frontend</strong>
+        <span>Simple</span>
+      </span>
+    </a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#social">Social</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="hero-kicker"><span aria-hidden="true"></span>COURSE 001 / START HERE</p>
+      <h1 id="hero-title">Learn the web<br><em>the fun way.</em></h1>
+      <p class="hero-description">Four clear, hands-on courses to take you from your first tag to a finished page.</p>
+      <a class="hero-cta" href="#courses">Explore the courses <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="hero-art">
+      <img src="assests-retro-images/retro-play-button-three.webp" alt="Retro play button illustration">
+      <span class="hero-stamp" aria-hidden="true">PRESS<br>START</span>
+      <span class="hero-art-note" aria-hidden="true">FIG. 001 / PLAY</span>
+    </div>
+  </section>
+  <main class="topic-list" id="courses" aria-label="Front-end topics">
+    <article class="topic-tile">
+      <span class="tile-number" aria-hidden="true">01</span>
+      <div>
+        <span class="course-label">COURSE 01</span>
+        <h2 class="tile-title">HTML</h2>
+        <p class="tile-description">Build clear, accessible page structure.</p>
+      </div>
+      <img class="tile-art" src="assests-retro-images/retro-copyright-image-one.webp" alt="">
+      <span class="tile-label">STRUCTURE</span>
+    </article>
+    <article class="topic-tile">
+      <span class="tile-number" aria-hidden="true">02</span>
+      <div>
+        <span class="course-label">COURSE 02</span>
+        <h2 class="tile-title">CSS</h2>
+        <p class="tile-description">Shape layouts, colors, and visual rhythm.</p>
+      </div>
+      <img class="tile-art" src="assests-retro-images/retro-play-button.jpg" alt="">
+      <span class="tile-label">STYLE</span>
+    </article>
+    <article class="topic-tile">
+      <span class="tile-number" aria-hidden="true">03</span>
+      <div>
+        <span class="course-label">COURSE 03</span>
+        <h2 class="tile-title">JavaScript</h2>
+        <p class="tile-description">Bring the page to life with interaction.</p>
+      </div>
+      <img class="tile-art" src="assests-retro-images/retro-play-button-three.webp" alt="">
+      <span class="tile-label">BEHAVIOR</span>
+    </article>
+    <article class="topic-tile">
+      <span class="tile-number" aria-hidden="true">04</span>
+      <div>
+        <span class="course-label">COURSE 04</span>
+        <h2 class="tile-title">Workflow</h2>
+        <p class="tile-description">Use tools to build, test, and refine.</p>
+      </div>
+      <span class="tile-label">TOOLKIT</span>
+    </article>
+  </main>
+  <section class="content-row" id="about" aria-labelledby="about-title">
+    <article class="section__card section__card--about">
+      <div class="content-copy">
+        <div class="content-title">
+          <p class="content-kicker">ABOUT FRONT END SIMPLE</p>
+          <h2 id="about-title">A simpler way into the web.</h2>
+        </div>
+        <div class="content-description">
+          <p>Front End Simple is a friendly starting point for learning how the web is built.</p>
+          <p>Move from HTML and CSS to JavaScript with clear lessons, practical steps, and room to experiment.</p>
+        </div>
+      </div>
+      <figure class="content-figure">
+        <img src="assests-retro-images/retro-copyright-image-two.webp" alt="Retro copyright symbol illustration">
+        <figcaption>FIG. 002 / MADE FOR THE WEB</figcaption>
+      </figure>
+    </article>
+  </section>
+  <section class="content-row social-row" id="social" aria-labelledby="social-heading">
+    <article class="section__card section__card--social">
+      <figure class="content-figure social-figure">
+        <img src="assests-retro-images/retro-play-button.jpg" alt="Retro play button illustration">
+        <figcaption>FIG. 003 / KEEP EXPLORING</figcaption>
+      </figure>
+      <div class="content-copy social-copy">
+        <div class="content-title social-title">
+          <p class="content-kicker">FIND YOUR PEOPLE</p>
+          <h2 id="social-heading">Keep making things.</h2>
+        </div>
+        <div class="content-description social-description">
+          <p>Learning gets better when you share what you make and see how other people approach the same problems.</p>
+          <p>Explore these creative communities for front-end projects, experiments, and practical ideas.</p>
+          <nav class="social-links" aria-label="Front-end communities">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://codepen.io" target="_blank" rel="noopener noreferrer">CodePen ↗</a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+          </nav>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="content-row contact-row" id="contact" aria-labelledby="contact-heading">
+    <article class="section__card section__card--contact">
+      <div class="contact-copy">
+        <p class="content-kicker">GET IN TOUCH</p>
+        <h2 id="contact-heading">Send a note.</h2>
+        <p class="contact-description">Have a question or an idea to share? Drop it here.</p>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label class="form-field" for="contact-email">
+          <span>Email</span>
+          <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        </label>
+        <label class="form-field" for="contact-message">
+          <span>Message</span>
+          <textarea id="contact-message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </label>
+        <button class="contact-submit" type="submit">Send message <span aria-hidden="true">→</span></button>
+        <p class="contact-status" id="contact-status" aria-live="polite"></p>
+      </form>
+    </article>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand" href="#top" aria-label="Frontend Simple home">
+        <span class="brand-mark" aria-hidden="true">FES</span>
+        <span class="brand-name">
+          <strong>Frontend</strong>
+          <span>Simple</span>
+        </span>
+      </a>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#social">Social</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Front End Simple. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+  <script>
+    document.querySelector("#contact-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      document.querySelector("#contact-status").textContent = "This demo form is ready, but message delivery is not connected yet.";
+    });
+  </script>
+</body>
+</html>
