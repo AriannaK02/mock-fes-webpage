@@ -7,13 +7,16 @@
   <title>Front End Simple</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Frontend Simple home">
-      <span class="brand-mark" aria-hidden="true">FES</span>
+      <img class="brand-mark" src="assets/fes-logo.png" alt="">
       <span class="brand-name">
         <strong>Frontend</strong>
         <span>Simple</span>
@@ -33,7 +36,7 @@
       <a class="hero-cta" href="#courses">Explore the courses <span aria-hidden="true">→</span></a>
     </div>
     <div class="hero-art">
-      <img src="assests-retro-images/retro-play-button-three.webp" alt="Retro play button illustration">
+      <img src="assets/laptop.png" alt="A learner working at a laptop">
       <span class="hero-stamp" aria-hidden="true">PRESS<br>START</span>
       <span class="hero-art-note" aria-hidden="true">FIG. 001 / PLAY</span>
     </div>
@@ -46,7 +49,7 @@
         <h2 class="tile-title">HTML</h2>
         <p class="tile-description">Build clear, accessible page structure.</p>
       </div>
-      <img class="tile-art" src="assests-retro-images/retro-copyright-image-one.webp" alt="">
+      <img class="tile-art" src="assets/reading.png" alt="">
       <span class="tile-label">STRUCTURE</span>
     </article>
     <article class="topic-tile">
@@ -56,7 +59,7 @@
         <h2 class="tile-title">CSS</h2>
         <p class="tile-description">Shape layouts, colors, and visual rhythm.</p>
       </div>
-      <img class="tile-art" src="assests-retro-images/retro-play-button.jpg" alt="">
+      <img class="tile-art" src="assets/laptop.png" alt="">
       <span class="tile-label">STYLE</span>
     </article>
     <article class="topic-tile">
@@ -66,7 +69,7 @@
         <h2 class="tile-title">JavaScript</h2>
         <p class="tile-description">Bring the page to life with interaction.</p>
       </div>
-      <img class="tile-art" src="assests-retro-images/retro-play-button-three.webp" alt="">
+      <img class="tile-art" src="assets/social.png" alt="">
       <span class="tile-label">BEHAVIOR</span>
     </article>
     <article class="topic-tile">
@@ -92,7 +95,7 @@
         </div>
       </div>
       <figure class="content-figure">
-        <img src="assests-retro-images/retro-copyright-image-two.webp" alt="Retro copyright symbol illustration">
+        <img src="assets/reading.png" alt="Two people reading together">
         <figcaption>FIG. 002 / MADE FOR THE WEB</figcaption>
       </figure>
     </article>
@@ -100,7 +103,7 @@
   <section class="content-row social-row" id="social" aria-labelledby="social-heading">
     <article class="section__card section__card--social">
       <figure class="content-figure social-figure">
-        <img src="assests-retro-images/retro-play-button.jpg" alt="Retro play button illustration">
+        <img src="assets/social.png" alt="Two people collaborating on a web page">
         <figcaption>FIG. 003 / KEEP EXPLORING</figcaption>
       </figure>
       <div class="content-copy social-copy">
@@ -144,7 +147,7 @@
   <footer class="site-footer">
     <div class="footer-top">
       <a class="brand" href="#top" aria-label="Frontend Simple home">
-        <span class="brand-mark" aria-hidden="true">FES</span>
+        <img class="brand-mark" src="assets/fes-logo.png" alt="">
         <span class="brand-name">
           <strong>Frontend</strong>
           <span>Simple</span>
@@ -163,10 +166,15 @@
     </div>
   </footer>
   <script>
-    document.querySelector("#contact-form").addEventListener("submit", (event) => {
-      event.preventDefault();
-      document.querySelector("#contact-status").textContent = "This demo form is ready, but message delivery is not connected yet.";
-    });
+    document
+      .querySelector("#contact-form")
+      .addEventListener("submit", (event) => {
+        event.preventDefault();
+        document
+          .querySelector("#contact-status")
+          .textContent =
+          "This demo form is ready, but message delivery is not connected yet.";
+      });
   </script>
 </body>
 </html>
